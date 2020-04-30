@@ -1,0 +1,6 @@
+[DEFAULT]
+user=ocid1.user.oc1..xxxxxxxxxxxxxxxxxxx2acx3a5zegmzq
+fingerprint=39:9b:00:df:6d:xxxxxxxxxx:aa:17:44:2d:da
+key_file=./oci_api_key.pem
+tenancy=ocid1.tenancy.oc1..xxxxxxxxr5pr5xdsg3gahcygx7a
+region=us-phoenix-1

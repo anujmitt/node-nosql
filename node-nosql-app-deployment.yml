@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: node-nosql-app-deployment
+  labels:
+    app: node-nosql-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: node-nosql-app-pod
+      app: node-nosql-app
+  template:
+    metadata:
+      name: node-nosql-app-pod
+      labels:
+        name: node-nosql-app-pod
+        app: node-nosql-app
+
+    spec:
+      containers:
+      - name: node-nosql
+        image: anujmitt/node_nosql
+        ports:
+        - containerPort: 8080

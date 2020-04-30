@@ -1,0 +1,11 @@
+{
+    "region": "US_PHOENIX_1",
+    "compartment": "ocid1.compartment.oc1..xxxxxxxxxxxxxxxxxxxxxxxxxxxa6uqqau6xmqq",
+    "auth":
+    {
+        "iam":
+       {
+            "configFile": "./config"
+       }
+    }
+}
